@@ -12,6 +12,7 @@ ul, li {
 }
 
 .hd .logo {
+  min-width: 100px;
   max-width: 120px;
 }
 
@@ -28,4 +29,11 @@ ul, li {
   color: black;
   text-decoration: none;
   font-family: 'GmarketSansBold';
+}
+
+.d1ul li a:hover {
+  border-bottom: 3px solid black;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border-radius: 50%;
 }

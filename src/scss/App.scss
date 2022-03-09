@@ -6,6 +6,7 @@ ul,li {list-style: none;}
 
 .hd{
     .logo{
+        min-width: 100px;
         max-width: 120px;
         img{ width:100%; display: block;}
     }
@@ -21,4 +22,9 @@ ul,li {list-style: none;}
             text-decoration: none;
             font-family: 'GmarketSansBold';}
     }
+}
+.d1ul li a:hover {
+    border-bottom: 3px solid black;
+    transition: 0.7s;
+    border-radius: 50%;
 }
